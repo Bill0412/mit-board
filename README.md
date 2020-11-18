@@ -33,7 +33,7 @@ A member have to pay a `big red pocket` if he/she wants to leave the group.
 
 ### Invitation
 
-One have to finish at least one course before he/she quit the group, otherwise the one who invites him/her should offer a `small red pocket`. (The group owner is excluded from this term)
+One have to finish at least one course before he/she quit the group, otherwise the one who invites him/her should offer a `small red pocket`. (The group owner is excluded from this term before the number of members of the group reaches 27 for the first time)
 
 ## Learning Repository
 

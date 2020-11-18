@@ -7,6 +7,10 @@ The learning course range may be expanded later.
 
 The assessment is slightly cruel.
 
+### Code Structure
+- Checkin Result Board: a website that shows checkin data for each member.
+- Crawler: A Github Crawler that runs periodically for checkins.
+
 ### Some Terms
 - `Small Red Pocket`: `floor(10*e)`(27) RMB, distributed to 15 red pockets randomly.
 - `Big Red Pocket`: `floor(20*e)`(54) RMB, distributed to 30 red pockets randomly.

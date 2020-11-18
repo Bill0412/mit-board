@@ -20,7 +20,7 @@ The assessment is slightly cruel.
 
 2. One can join the group as long as the group is not full, having finished the `prerequisites for join group` and being invited by someone in the group.
 
-3. To join the group, one should provide his/her GitHub id to the group owner.
+3. To join the group, **one should provide his/her GitHub id** to the group owner.
 
 4. One can choose to make a reservation with the group owner and start from the next course. Or catch up with the current course and join the moment the requirements are met, a manual inspection request should be made to the group owner in this case.
 

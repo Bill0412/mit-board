@@ -93,13 +93,13 @@ week3
 
 ### Diary Interpretation
 A valid diary Example:
-Mon: Today I watched half of the video
-Tue: (vacant because today is busy)
-Wed: Today I watched the other half of the video
-Thur: I read the assignments
-Fri: (vacant since there's a party with friends)
-Sat: Finished the assignments
-Sun: (Peer Review and the start of the next lecture)
+- Mon: Today I watched half of the video
+- Tue: (vacant because today is busy)
+- Wed: Today I watched the other half of the video
+- Thur: I read the assignments
+- Fri: (vacant since there's a party with friends)
+- Sat: Finished the assignments
+- Sun: (Peer Review and the start of the next lecture)
 
 The diary does not require much effort, and it just makes sure that you're working on the lecture and assignments. You may also add some of your learning thoughts to it.
 

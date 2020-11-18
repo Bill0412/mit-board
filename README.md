@@ -84,7 +84,7 @@ week3
     sun
     task
     peer-review
-......(If there are mor weeks for this week)
+......(If there are more weeks for this week)
 ```
  
 ## Checkin

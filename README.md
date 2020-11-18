@@ -95,6 +95,8 @@ Meanwhile, each checkin should be accompanied by a screen shot sent to the WeCha
 
 A checkin missing either one of the above is not a valid checkin. 
 
+All the checkins MUST BE in English, anyone who violates it should offer a `smaller red pocket`.
+
 ### Checkin Twice a day
 
 The creation of the new folder will be checked every day. A Group member of the group MUST checkin AT LEAST each other day. 

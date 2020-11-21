@@ -4,7 +4,7 @@ Future courses will be selected from the following list. The list is sorted base
 
 All the courses included in this program has course videos on YouTube, and should be based on the latest ones, since the videos on MIT OCW may not be the latest. 
 
-[edX](https://edx.org) also offers some of the latest ones.
+[edX](https://www.edx.org/search?q=mit&tab=course) also offers some of the latest ones.
 
 - [MIT 5.111: Principles of Chemical Science](https://ocw.mit.edu/courses/chemistry/5-111sc-principles-of-chemical-science-fall-2014/)
 

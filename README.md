@@ -114,11 +114,11 @@ A checkin missing either one of the above is not a valid checkin.
 
 All the checkins MUST BE in English, anyone who violates it should offer a `smaller red pocket`.
 
-### Checkin Twice a day
+### Checkin Detection
 
 The creation of the new folder will be checked every day. A Group member of the group MUST checkin AT LEAST each other day. 
 
-The check is a comparison with a copy of the previous day, so creating a new folder in advance is useless.
+Each detection will be for the current day and the day before. Either one or both checkins will be valid.
 
 ### Weekly Task & `Peer` Review
 The weekly task is published at the beginning of each week, which typically is an one hour long lecture and its accompanied assignments. 

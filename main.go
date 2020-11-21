@@ -14,7 +14,7 @@ import (
 )
 
 const (
-	// paramters
+	// parameters
 	// 1: member github id
 	// 2: repo
 	// 3: tree/blob

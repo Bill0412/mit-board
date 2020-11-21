@@ -1,5 +1,5 @@
 # Future Courses
-
+## Course Candidates
 Future courses will be selected from the following list. The list is sorted based on the course indices and is still growing.
 
 All the courses included in this program has course videos on YouTube, and should be based on the latest ones, since the videos on MIT OCW may not be the latest. 
@@ -70,7 +70,9 @@ All the courses included in this program has course videos on YouTube, and shoul
 - [MIT 18.06: Linear Algebra](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/)
 
 
-#### References
+If you find some other courses interesting, please submit a pull request to add it to the list. The courses may not be limited to MIT OCW, as long as the course material is full, including but not limited to the cource video and other course materials.
+
+## References
 The selection of these courses are based on:
 1. https://www.eecs.mit.edu/docs/ug/freshman_roadmaps.pdf
 2. https://www.youtube.com/watch?v=piSLobJfZ3c

@@ -10,7 +10,7 @@ The assessment is slightly cruel.
 ### Courses
 Following is a list of courses ongoing or included in this program. 
 
-1. [MIT 6.null: The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)
+1. ([mit-6-null](courses/mit-6-null/README.md))[MIT 6.null: The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)
 
 #### Future Courses
 - [A list of courses available](courses/future-courses.md)

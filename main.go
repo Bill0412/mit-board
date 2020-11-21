@@ -133,6 +133,7 @@ func assess(url string) int {
 	defer resp.Body.Close()
 
 	// TODO: tokenize the html body and check more rigorously
+	// 1. check checkin date(README.md creation date)
 
 	return 1
 }

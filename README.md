@@ -7,6 +7,14 @@ The learning course range may be expanded later.
 
 The assessment is slightly cruel.
 
+### Courses
+Following is a list of courses ongoing or included in this program.
+
+1. [MIT 6.null: The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)
+
+#### Future Courses
+TODO
+
 ### Code Structure
 - Checkin Result Board: a website that shows checkin data for each member.
 - Crawler: A Github Crawler that runs periodically for checkins.

@@ -9,7 +9,9 @@ import (
 	"math/rand"
 	"net/http"
 	"os"
+	"sort"
 	"strconv"
+	"strings"
 	"time"
 )
 
@@ -24,9 +26,9 @@ const (
 	memberFilepath = "config/members.csv"
 )
 
-var course = *flag.String("c", "mit-test-repo", "course name given")
-var week = *flag.Int("w", 1, "the i-th week of the course")
-var day = *flag.Int("d", 1, "the i-th day of the week")
+var cCourse = flag.String("c", "mit-test-repo", "course name given")
+var wWeek = flag.Int("w", 1, "the i-th week of the course")
+var dDay = flag.Int("d", 1, "the i-th day of the week")
 
 var days = []string{1: "mon", 2: "tue", 3: "wed", 4: "thur", 5: "fri", 6: "sat", 7: "sun"}
 
@@ -61,7 +63,7 @@ func loadMembers() []string {
 			fmt.Fprintf(os.Stderr, "getMember read csv: %v", err)
 		}
 
-		rets = append(rets, record[0])
+		rets = append(rets, strings.ToLower(record[0]))
 	}
 
 	return rets
@@ -71,7 +73,7 @@ func dailyAssess(members []string) {
 	res := assessAll(members)
 
 	// folder structure: data/course_name/week/day/assess.csv
-	path := fmt.Sprintf("data/%s/week%d/%s/", course, week, days[day])
+	path := fmt.Sprintf("data/%s/week%d/%s/", *cCourse, *wWeek, days[*dDay])
 	os.MkdirAll(path, 0777)
 
 	csvFile := path + "assess.csv"
@@ -82,8 +84,16 @@ func dailyAssess(members []string) {
 
 func writeMapCSV(m map[string]int, filepath string) {
 	var records [][]string
-	for k, v := range m {
-		record := []string{k, strconv.Itoa(v)}
+	var keys []string
+
+	for key := range m {
+		keys = append(keys, key)
+	}
+
+	sort.Strings(keys)
+
+	for _, key := range keys {
+		record := []string{key, strconv.Itoa(m[key])}
 		records = append(records, record)
 	}
 
@@ -105,7 +115,7 @@ func assessAll(members []string) map[string]int {
 	var rets = make(map[string]int)
 
 	for _, member := range members {
-		var url = fmt.Sprintf(dailyURL, member, course, "tree", week, days[day])
+		var url = fmt.Sprintf(dailyURL, member, *cCourse, "tree", *wWeek, days[*dDay])
 		rets[member] = assess(url)
 		// sleep before crawling the next one
 		time.Sleep(time.Duration(rand.Intn(1000)) * time.Millisecond)

@@ -136,7 +136,7 @@ func assess(url string) int {
 
 	// if the page does not exist, not checked in yet
 	if resp.StatusCode == http.StatusNotFound {
-		fmt.Printf("%s not found", url)
+		fmt.Printf("fetch: %s not found\n", url)
 		return 0
 	}
 

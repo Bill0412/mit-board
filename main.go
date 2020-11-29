@@ -30,7 +30,7 @@ var cCourse = flag.String("c", "mit-test-repo", "course name given")
 var wWeek = flag.Int("w", 1, "the i-th week of the course")
 var dDay = flag.Int("d", 1, "the i-th day of the week")
 
-var days = []string{1: "mon", 2: "tue", 3: "wed", 4: "thur", 5: "fri", 6: "sat", 7: "sun"}
+var days = []string{1: "mon", 2: "tue", 3: "wed", 4: "thur", 5: "fri", 6: "sat", 7: "sun", 8: "task", 9: "peer-review"}
 
 func main() {
 

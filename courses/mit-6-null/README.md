@@ -4,6 +4,7 @@ Course Repository Name: mit-6-null
 ## Course Material
 1. Week 1: [Course overview + the shell](https://missing.csail.mit.edu/2020/course-shell/)
 2. Week 2: [Shell Tools and Scripting](https://missing.csail.mit.edu/2020/shell-tools/)
+3. Week 3: [Editors (Vim)](https://missing.csail.mit.edu/2020/editors/)
 
 
 ## Recitation
@@ -16,7 +17,6 @@ Course Repository Name: mit-6-null
 2. [Part II](https://www.youtube.com/watch?v=2vslUoXhomI)
 3. [Part III](https://www.youtube.com/watch?v=nngtx5KHxms)
 4. [Part IV](https://www.youtube.com/watch?v=4UguBK3_oj4)
-
 
 
 ## Further Reading/Watching

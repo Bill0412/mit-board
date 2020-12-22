@@ -6,6 +6,7 @@ Course Repository Name: mit-6-null
 2. Week 2: [Shell Tools and Scripting](https://missing.csail.mit.edu/2020/shell-tools/)
 3. Week 3: [Editors (Vim)](https://missing.csail.mit.edu/2020/editors/)
 4. Week 4: [Data Wrangling](https://missing.csail.mit.edu/2020/data-wrangling/)
+5. Week 5: [Command-line Environment](https://missing.csail.mit.edu/2020/command-line/)
 
 
 ## Recitation
